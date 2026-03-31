@@ -1,8 +1,37 @@
-# React + Vite
+https://hotelbooking-murex-one.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Description
 
-Currently, two official plugins are available:
+A modern hotel booking web application where users can browse rooms, check availability, and make bookings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+Browse hotel rooms
+View room details
+Booking functionality
+Responsive design
+
+🛠 Tech Stack
+Frontend
+React.js
+Tailwind CSS
+Backend
+Node.js
+Express.js
+Database
+MongoDB
+👨‍💻 My Role
+
+Built frontend using React
+Integrated APIs
+Designed responsive UI
+Implemented booking flow
+
+🔗 Backend Repository
+
+Backend is private and can be shared upon request.
+
+## 📷 Screenshots
+
+![Home Page](./screenshots/Home.png)
+![Rooms ](./screenshots/Rooms.png)
+![Admin Panel](./screenshots/AdminPanel.png)
