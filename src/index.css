@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-theme-bg text-theme-primary;
+}
+
+
+/* Add to your global CSS */
+.thumb-swiper {
+  padding: 10px 0;
+}
+
+.thumb-swiper .swiper-slide {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.thumb-swiper .swiper-slide-thumb-active {
+  opacity: 1;
+  border-color: #907B60;
+}
+
+.thumb-swiper .swiper-slide-thumb-active div {
+  border-color: #907B60;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #907B60;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b5a45;
+}
